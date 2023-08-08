@@ -58,7 +58,7 @@ public class AllUserFrame extends JFrame {
 
     private void loadUserDetails() {
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("src/Task7/user_details.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("Task7/user_details.txt"));
 
             String line;
             int gridy = 0;
@@ -92,7 +92,7 @@ public class AllUserFrame extends JFrame {
 
     private void loadConnectionDetails() {
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("src/Task7/connection_details.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("Task7/connection_details.txt"));
 
             String line;
             while ((line = reader.readLine()) != null) {
